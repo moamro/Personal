@@ -1,0 +1,43 @@
+﻿Build started 3/11/2016 9:07:51 AM.
+     1>Project "C:\Users\m.amro\Desktop\ALPHA\HDAT.sound\HDAT sound\CS230_Asteroids.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"..\..\..\Alpha_Engine (With Textures)\Alpha_Engine" /IInclude /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Math2D.c Matrix2D.c src\EnemyLoader.c src\GameStateMgr.c src\GameState_Asteroids.c src\main.c src\TimerUtility.c Vector2D.c
+         Math2D.c
+         Matrix2D.c
+     1>Matrix2D.c(176): warning C4552: '+': operator has no effect; expected operator with side-effect
+     1>Matrix2D.c(177): warning C4552: '+': operator has no effect; expected operator with side-effect
+         EnemyLoader.c
+     1>src\EnemyLoader.c(88): warning C4047: 'function': 'int' differs in levels of indirection from 'FMOD_CHANNEL *'
+     1>src\EnemyLoader.c(88): warning C4024: 'FMOD_Sound_SetMusicChannelVolume': different types for formal and actual parameter 2
+     1>src\EnemyLoader.c(556): warning C4047: 'function': 'FMOD_CHANNEL **' differs in levels of indirection from 'FMOD_CHANNEL *'
+     1>src\EnemyLoader.c(556): warning C4024: 'FMOD_System_PlaySound': different types for formal and actual parameter 5
+     1>src\EnemyLoader.c(1451): warning C4047: 'function': 'Timer **' differs in levels of indirection from 'Timer *'
+     1>src\EnemyLoader.c(1451): warning C4024: 'DestroyTimer': different types for formal and actual parameter 1
+         GameStateMgr.c
+         GameState_Asteroids.c
+     1>src\GameState_Asteroids.c(73): warning C4047: 'initializing': 'FMOD_CHANNEL *' differs in levels of indirection from 'int'
+     1>src\GameState_Asteroids.c(655): warning C4047: 'function': 'FMOD_CHANNEL **' differs in levels of indirection from 'FMOD_CHANNEL *'
+     1>src\GameState_Asteroids.c(655): warning C4024: 'FMOD_System_PlaySound': different types for formal and actual parameter 5
+         main.c
+         TimerUtility.c
+     1>src\TimerUtility.c(75): warning C4028: formal parameter 1 different from declaration
+         Vector2D.c
+         Generating Code...
+     1>c:\users\m.amro\desktop\alpha\hdat.sound\hdat sound\src\enemyloader.c(295): warning C4715: 'LoadEnemySpawnsFromLevel': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\m.amro\Desktop\ALPHA\HDAT.sound\HDAT sound\Release\CS230_Asteroids.exe" /NOLOGO /LIBPATH:"..\..\..\Alpha_Engine (With Textures)\lib" Alpha_Engine.lib fmodL_vc.lib fmodL64_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\m.amro\Desktop\ALPHA\HDAT.sound\HDAT sound\Release\CS230_Asteroids.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\m.amro\Desktop\ALPHA\HDAT.sound\HDAT sound\Release\CS230_Asteroids.lib" /MACHINE:X86 /SAFESEH Release\Math2D.obj
+         Release\Matrix2D.obj
+         Release\EnemyLoader.obj
+         Release\GameStateMgr.obj
+         Release\GameState_Asteroids.obj
+         Release\main.obj
+         Release\TimerUtility.obj
+         Release\Vector2D.obj
+         FMOD\fmodL64_vc.lib
+         FMOD\fmodL_vc.lib
+         CS230_Asteroids.vcxproj -> C:\Users\m.amro\Desktop\ALPHA\HDAT.sound\HDAT sound\Release\CS230_Asteroids.exe
+     1>Done Building Project "C:\Users\m.amro\Desktop\ALPHA\HDAT.sound\HDAT sound\CS230_Asteroids.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.43
